@@ -7,7 +7,8 @@ public class Driver
 		Fish nemo = new Fish();
 
 		nemo.Swim();
-		nemo.color= "red";
+		//nemo.color= "red";
+		nemo.SetColor("red");
 		nemo.Swim();
 
 		//new object dory
@@ -16,8 +17,12 @@ public class Driver
 		//output blue fish swim 
 		//default color is remain
 		dory.Swim(); 
-		dory.color = "green";
+		//dory.color = "green";
+		dory.SetColor("green");
 		dory.Swim();
+
+		Aquirium fancyAquirium = new Aquirium();
+		fancyAquirium.fillFish();
 
 
 	}

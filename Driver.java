@@ -20,7 +20,7 @@ public class Driver
 		//dory.color = "green";
 		dory.SetColor("green");
 		dory.Swim();
-		nemo.Eat();//superclass call subclass
+		//nemo.Eat();//superclass call subclass
 
 		//Aquirium fancyAquirium = new Aquirium();
 		//fancyAquirium.fillFish();
